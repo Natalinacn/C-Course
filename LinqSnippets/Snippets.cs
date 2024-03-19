@@ -198,7 +198,7 @@ namespace LinqSnippets
 
             //Obtain all Employees of all Enterprises
 
-           var employeeList = enterprises.SelectMany(enterprise => enterprise.Employees);
+            var employeeList = enterprises.SelectMany(enterprise => enterprise.Employees);
             //Know if any list is empty
             bool hastEnterprises = enterprises.Any();
 
@@ -248,9 +248,9 @@ namespace LinqSnippets
                                  join element in firstList
                                 on secondElement equals element
                                 into temporalList
-                                from temporalElement in temporalList.DefaultIfEmpty()
-                                where secondElement != temporalElement
-                                select new { Element = secondElement };
+                                 from temporalElement in temporalList.DefaultIfEmpty()
+                                 where secondElement != temporalElement
+                                 select new { Element = secondElement };
 
             //Union: Agarro todos los elementos que no se repiten
             var unionList = leftOuterJoin.Union(rightOuterJoin);
@@ -264,14 +264,14 @@ namespace LinqSnippets
             {
             1, 2, 3, 4, 5, 6, 7, 8, 9, 10
             };
-        
+
 
             //SKIP
             var skipTwoFirtsValues = myList.Skip(2); // {3, 4, 5, 6, 7, 8, 9, 10}
 
             var skipLastTwoValues = myList.SkipLast(2); // {3, 4, 5, 6, 7, 8}
 
-            var skipWhileSmallerThan4 = myList.SkipWhile(num=> num < 4); // {4, 5, 6, 7, 8} Si es menor que 4 se lo salta
+            var skipWhileSmallerThan4 = myList.SkipWhile(num => num < 4); // {4, 5, 6, 7, 8} Si es menor que 4 se lo salta
 
             //TAKE
 
@@ -279,9 +279,57 @@ namespace LinqSnippets
 
             var takeLastTwoValues = myList.TakeLast(2); // {9, 10}
 
-            var takeWhileSmallerThan4 = myList.TakeWhile(num=> num < 4); // {1, 2, 3}
+            var takeWhileSmallerThan4 = myList.TakeWhile(num => num < 4); // {1, 2, 3}
 
+        }
+
+        //Paging with Skip & Take: Le paso la coleccion, el número de página y la cantidad de resultados por página
+        static public IEnumerable<T> GetPage<T>(IEnumerable<T> collection, int pageNumber, int resultsPerPage) { 
+            int startIndex = (pageNumber - 1) * resultsPerPage;
+            return collection.Skip(startIndex).Take(resultsPerPage);
+
+        }
+
+        //Variables: Uso de variables locales con "let" internamente dentro de una consulta que luego pueden ser implementadas para hacer una validación 
+
+        static public void LinqVariables()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            var aboveAverage = from number in numbers
+                               let average = numbers.Average()
+                               let nSquared = Math.Pow(number, 2)
+                               where nSquared > average
+                               select number;
+
+            Console.WriteLine("Average: {0}", numbers.Average());
+
+            foreach (int number in aboveAverage)
+            {
+                Console.WriteLine("Query: {0} {1}", number, Math.Pow(number,2));
+            }
+
+        }
+
+        //ZIP: Agarro una lista y otra lista con el mismo numero de posiciones y devuelve mezclados
+        //{ "1=one", "2=two", ...}
+
+        static public void ZipLinq()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            string[] stringNumbers = { "one", "two", "three", "four", "five" };
+
+            IEnumerable<string> zipNumbers = numbers.Zip(stringNumbers, (number, word) => number + "=" + word;
+
+        }
+
+        //Repeat (repite un valor N cantidad) & Range (genera valores)
+        static public void RepeatRangeLinq() { 
+            IEnumerable<int> first1000 = Enumerable.Range(0, 1000);
+
+            IEnumerable<string> fiveXs = Enumerable.Repeat("X", 5); // ("X", "X", "X", "X", "X")
         }
 
 
     }
+}
