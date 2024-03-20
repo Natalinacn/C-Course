@@ -252,3 +252,4 @@ C:\Users\natal\source\repos\WebApiPerson\WebApiPerson\obj\Debug\net8.0\refint\Un
 C:\Users\natal\source\repos\WebApiPerson\WebApiPerson\obj\Debug\net8.0\University.pdb
 C:\Users\natal\source\repos\WebApiPerson\WebApiPerson\obj\Debug\net8.0\University.genruntimeconfig.cache
 C:\Users\natal\source\repos\WebApiPerson\WebApiPerson\obj\Debug\net8.0\ref\University.dll
+C:\Users\natal\source\repos\WebApiPerson\WebApiPerson\obj\Debug\net8.0\University.sourcelink.json

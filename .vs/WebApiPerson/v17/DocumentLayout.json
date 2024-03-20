@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\linqsnippets\\snippets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\snippets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\linqsnippets\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\linqsnippets\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\linqsnippets\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\linqsnippets\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\linqsnippets\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB481FA-D80D-4AB0-898F-9DD6C7DF2782}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB83842-81D2-4A3E-8BD2-8166F64000D6}|WebApiPerson\\University.csproj|c:\\users\\natal\\source\\repos\\webapiperson\\webapiperson\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB83842-81D2-4A3E-8BD2-8166F64000D6}|WebApiPerson\\University.csproj|solutionrelative:webapiperson\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Comment.cs",
+              "RelativeDocumentMoniker": "LinqSnippets\\Comment.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Comment.cs",
+              "RelativeToolTip": "LinqSnippets\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:27:23.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Post.cs",
+              "RelativeDocumentMoniker": "LinqSnippets\\Post.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Post.cs",
+              "RelativeToolTip": "LinqSnippets\\Post.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvw8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:27:05.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Student.cs",
+              "RelativeDocumentMoniker": "LinqSnippets\\Student.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Student.cs",
+              "RelativeToolTip": "LinqSnippets\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T19:53:44.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Employee.cs",
+              "RelativeDocumentMoniker": "LinqSnippets\\Employee.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Employee.cs",
+              "RelativeToolTip": "LinqSnippets\\Employee.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:42:16.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enterprise.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Enterprise.cs",
+              "RelativeDocumentMoniker": "LinqSnippets\\Enterprise.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Enterprise.cs",
+              "RelativeToolTip": "LinqSnippets\\Enterprise.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:42:05.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Snippets.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Snippets.cs",
+              "RelativeDocumentMoniker": "LinqSnippets\\Snippets.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\LinqSnippets\\Snippets.cs",
+              "RelativeToolTip": "LinqSnippets\\Snippets.cs",
+              "ViewState": "AQIAAM8BAAAAAAAAAAAqwOABAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:40:22.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\WebApiPerson\\Context\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "WebApiPerson\\Context\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\natal\\source\\repos\\WebApiPerson\\WebApiPerson\\Context\\AppDBContext.cs",
+              "RelativeToolTip": "WebApiPerson\\Context\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T18:11:04.283Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
